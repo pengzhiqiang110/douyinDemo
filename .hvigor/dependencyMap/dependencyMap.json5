@@ -1,0 +1,1 @@
+{"basePath":"/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/.hvigor/dependencyMap/dependencyMap.json5","rootDependency":"./oh-package.json5","dependencyMap":{"entry":"./entry/oh-package.json5","shortVideo":"./shortVideo/oh-package.json5"},"modules":[{"name":"entry","srcPath":"../../../entry"},{"name":"shortVideo","srcPath":"../../../shortVideo"}]}

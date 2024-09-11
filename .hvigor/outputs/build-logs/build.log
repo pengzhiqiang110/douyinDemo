@@ -1,0 +1,1409 @@
+[2024-09-11T11:01:22.403] [DEBUG] debug-file - session manager: set active socket. socketId=w3iJL04kwCWOLB-qAAAJ
+[2024-09-11T11:01:22.409] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-09-11T11:01:22.437] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-09-11T11:01:22.438] [DEBUG] debug-file - Since current hvigor version 5.6.2 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2024-09-11T11:01:22.438] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2024-09-11T11:01:22.449] [DEBUG] debug-file - hvigorfile, resolving /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/hvigorfile.ts
+[2024-09-11T11:01:22.470] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-09-11T11:01:22.471] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-09-11T11:01:22.488] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-09-11T11:01:22.489] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-09-11T11:01:22.489] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-09-11T11:01:22.489] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-09-11T11:01:22.491] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  }
+} in this build.
+[2024-09-11T11:01:22.514] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-09-11T11:01:22.533] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-09-11T11:01:22.559] [DEBUG] debug-file - Sdk init in 44 ms 
+[2024-09-11T11:01:22.568] [DEBUG] debug-file - Project task initialization takes 8 ms 
+[2024-09-11T11:01:22.568] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-09-11T11:01:22.568] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/hvigorfile.ts
+[2024-09-11T11:01:22.568] [DEBUG] debug-file - hvigorfile, resolve finished /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/hvigorfile.ts
+[2024-09-11T11:01:22.573] [DEBUG] debug-file - hvigorfile, resolving /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/hvigorfile.ts
+[2024-09-11T11:01:22.578] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-09-11T11:01:22.578] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-09-11T11:01:22.581] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-09-11T11:01:22.581] [DEBUG] debug-file - Target 'default' config: {}
+[2024-09-11T11:01:22.581] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-09-11T11:01:22.581] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2024-09-11T11:01:22.581] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2024-09-11T11:01:22.584] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-09-11T11:01:22.584] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:22.589] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2024-09-11T11:01:22.589] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-09-11T11:01:22.589] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/hvigorfile.ts
+[2024-09-11T11:01:22.589] [DEBUG] debug-file - hvigorfile, resolve finished /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/hvigorfile.ts
+[2024-09-11T11:01:22.593] [DEBUG] debug-file - hvigorfile, resolving /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/hvigorfile.ts
+[2024-09-11T11:01:22.596] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-09-11T11:01:22.596] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-09-11T11:01:22.599] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=shortVideo, buildMode=debug
+[2024-09-11T11:01:22.600] [DEBUG] debug-file - Target 'default' config: {}
+[2024-09-11T11:01:22.600] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-09-11T11:01:22.600] [DEBUG] debug-file - Module 'shortVideo' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2024-09-11T11:01:22.600] [DEBUG] debug-file - Module 'shortVideo' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2024-09-11T11:01:22.600] [DEBUG] debug-file - End initialize module-target build option map, moduleName=shortVideo
+[2024-09-11T11:01:22.600] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:22.605] [DEBUG] debug-file - Module shortVideo task initialization takes 1 ms 
+[2024-09-11T11:01:22.605] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-09-11T11:01:22.605] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/hvigorfile.ts
+[2024-09-11T11:01:22.605] [DEBUG] debug-file - hvigorfile, resolve finished /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/hvigorfile.ts
+[2024-09-11T11:01:22.672] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 66 ms 
+[2024-09-11T11:01:22.673] [DEBUG] debug-file - project has submodules:entry,shortVideo
+[2024-09-11T11:01:22.673] [DEBUG] debug-file - module:shortVideo no need to execute packageHap
+[2024-09-11T11:01:22.674] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-09-11T11:01:22.679] [DEBUG] debug-file - load to the disk finished
+[2024-09-11T11:01:22.679] [DEBUG] debug-file - Module douyinDemo Collected Dependency: 
+[2024-09-11T11:01:22.679] [DEBUG] debug-file - Module douyinDemo's total dependency: 0
+[2024-09-11T11:01:22.681] [DEBUG] debug-file - Module entry Collected Dependency: /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo
+[2024-09-11T11:01:22.681] [DEBUG] debug-file - Module entry's total dependency: 1
+[2024-09-11T11:01:22.685] [DEBUG] debug-file - Module shortVideo Collected Dependency: 
+[2024-09-11T11:01:22.686] [DEBUG] debug-file - Module shortVideo's total dependency: 0
+[2024-09-11T11:01:22.690] [DEBUG] debug-file - Configuration phase cost:248 ms 
+[2024-09-11T11:01:22.694] [DEBUG] debug-file - Configuration task cost before running: 280 ms 
+[2024-09-11T11:01:22.696] [DEBUG] debug-file - Executing task :entry:clean
+[2024-09-11T11:01:22.697] [DEBUG] debug-file - clean: Start terminating worker pool.
+[2024-09-11T11:01:22.697] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2024-09-11T11:01:22.697] [DEBUG] debug-file - Clear worker 0.
+[2024-09-11T11:01:22.697] [DEBUG] debug-file - Worker 0 has been cleared.
+[2024-09-11T11:01:22.698] [DEBUG] debug-file - Current idle worker size: 0.
+[2024-09-11T11:01:22.698] [DEBUG] debug-file - Current busy worker size: 0.
+[2024-09-11T11:01:22.756] [DEBUG] debug-file - Current worker pool is terminated.
+[2024-09-11T11:01:22.756] [DEBUG] debug-file - clean: Terminating worker pool finished.
+[2024-09-11T11:01:22.813] [DEBUG] debug-file - entry : clean cost memory 3.3204803466796875
+[2024-09-11T11:01:22.819] [DEBUG] debug-file - runTaskFromQueue task cost before running: 400 ms 
+[2024-09-11T11:01:22.819] [INFO] debug-file - Finished :entry:clean... after 117 ms 
+[2024-09-11T11:01:22.833] [DEBUG] debug-file - Executing task :shortVideo:clean
+[2024-09-11T11:01:22.833] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2024-09-11T11:01:22.839] [DEBUG] debug-file - shortVideo : clean cost memory 0.20638275146484375
+[2024-09-11T11:01:22.839] [DEBUG] debug-file - runTaskFromQueue task cost before running: 425 ms 
+[2024-09-11T11:01:22.839] [INFO] debug-file - Finished :shortVideo:clean... after 7 ms 
+[2024-09-11T11:01:22.842] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:22.842] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:22.844] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-09-11T11:01:22.984] [DEBUG] debug-file - current product is not Atomic service.
+[2024-09-11T11:01:22.985] [DEBUG] debug-file - Use tool [darwin: JAVA_HOME, CLASSPATH]
+ [
+  {
+    JAVA_HOME: '/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home'
+  },
+  { CLASSPATH: undefined }
+]
+[2024-09-11T11:01:22.985] [DEBUG] debug-file - Use tool [darwin: NODE_HOME]
+ [
+  {
+    NODE_HOME: '/Applications/DevEco-Studio.app/Contents/tools/node/bin'
+  }
+]
+[2024-09-11T11:01:22.986] [DEBUG] debug-file - entry : default@PreBuild cost memory 17.644515991210938
+[2024-09-11T11:01:22.986] [DEBUG] debug-file - runTaskFromQueue task cost before running: 572 ms 
+[2024-09-11T11:01:22.987] [INFO] debug-file - Finished :entry:default@PreBuild... after 143 ms 
+[2024-09-11T11:01:22.988] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:22.988] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:22.989] [DEBUG] debug-file - Executing task :shortVideo:default@PreBuild
+[2024-09-11T11:01:23.022] [DEBUG] debug-file - current product is not Atomic service.
+[2024-09-11T11:01:23.022] [DEBUG] debug-file - Use tool [darwin: JAVA_HOME, CLASSPATH]
+ [
+  {
+    JAVA_HOME: '/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home'
+  },
+  { CLASSPATH: undefined }
+]
+[2024-09-11T11:01:23.022] [DEBUG] debug-file - Use tool [darwin: NODE_HOME]
+ [
+  {
+    NODE_HOME: '/Applications/DevEco-Studio.app/Contents/tools/node/bin'
+  }
+]
+[2024-09-11T11:01:23.023] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2024-09-11T11:01:23.024] [DEBUG] debug-file - shortVideo : default@PreBuild cost memory -5.436271667480469
+[2024-09-11T11:01:23.024] [DEBUG] debug-file - runTaskFromQueue task cost before running: 611 ms 
+[2024-09-11T11:01:23.025] [INFO] debug-file - Finished :shortVideo:default@PreBuild... after 36 ms 
+[2024-09-11T11:01:23.027] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.027] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.031] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2024-09-11T11:01:23.032] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.0279388427734375
+[2024-09-11T11:01:23.032] [DEBUG] debug-file - runTaskFromQueue task cost before running: 618 ms 
+[2024-09-11T11:01:23.032] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2024-09-11T11:01:23.033] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:23.033] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:23.033] [DEBUG] debug-file - Executing task :shortVideo:default@CreateHarBuildProfile
+[2024-09-11T11:01:23.036] [DEBUG] debug-file - shortVideo : default@CreateHarBuildProfile cost memory 0.03057861328125
+[2024-09-11T11:01:23.036] [DEBUG] debug-file - runTaskFromQueue task cost before running: 622 ms 
+[2024-09-11T11:01:23.036] [INFO] debug-file - Finished :shortVideo:default@CreateHarBuildProfile... after 3 ms 
+[2024-09-11T11:01:23.038] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:23.038] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:23.038] [DEBUG] debug-file - Executing task :shortVideo:default@ConfigureCmake
+[2024-09-11T11:01:23.038] [DEBUG] debug-file - shortVideo : default@ConfigureCmake cost memory 0.0149078369140625
+[2024-09-11T11:01:23.038] [DEBUG] debug-file - runTaskFromQueue task cost before running: 625 ms 
+[2024-09-11T11:01:23.038] [INFO] debug-file - Finished :shortVideo:default@ConfigureCmake... after 1 ms 
+[2024-09-11T11:01:23.040] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:23.040] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:23.041] [DEBUG] debug-file - Executing task :shortVideo:default@MergeProfile
+[2024-09-11T11:01:23.041] [DEBUG] debug-file - Change app api release type with 'Release'
+[2024-09-11T11:01:23.041] [DEBUG] debug-file - Change app compile API version with '5.0.0.65'
+[2024-09-11T11:01:23.041] [DEBUG] debug-file - Change app target API version with '50000012'
+[2024-09-11T11:01:23.041] [DEBUG] debug-file - Change app minimum API version with '50000012'
+[2024-09-11T11:01:23.041] [DEBUG] debug-file - Use cli appEnvironment
+[2024-09-11T11:01:23.043] [DEBUG] debug-file - shortVideo : default@MergeProfile cost memory 0.48313140869140625
+[2024-09-11T11:01:23.043] [DEBUG] debug-file - runTaskFromQueue task cost before running: 629 ms 
+[2024-09-11T11:01:23.043] [INFO] debug-file - Finished :shortVideo:default@MergeProfile... after 3 ms 
+[2024-09-11T11:01:23.044] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.044] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.044] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2024-09-11T11:01:23.046] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.131134033203125
+[2024-09-11T11:01:23.046] [DEBUG] debug-file - runTaskFromQueue task cost before running: 632 ms 
+[2024-09-11T11:01:23.046] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 2 ms 
+[2024-09-11T11:01:23.047] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.047] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.051] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-09-11T11:01:23.056] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.07834625244140625
+[2024-09-11T11:01:23.056] [DEBUG] debug-file - runTaskFromQueue task cost before running: 643 ms 
+[2024-09-11T11:01:23.057] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 6 ms 
+[2024-09-11T11:01:23.058] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:23.058] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:23.059] [DEBUG] debug-file - Executing task :shortVideo:default@BuildNativeWithCmake
+[2024-09-11T11:01:23.059] [DEBUG] debug-file - shortVideo : default@BuildNativeWithCmake cost memory 0.014129638671875
+[2024-09-11T11:01:23.059] [DEBUG] debug-file - runTaskFromQueue task cost before running: 645 ms 
+[2024-09-11T11:01:23.059] [INFO] debug-file - Finished :shortVideo:default@BuildNativeWithCmake... after 1 ms 
+[2024-09-11T11:01:23.059] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.059] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.060] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-09-11T11:01:23.060] [DEBUG] debug-file - Change app api release type with 'Release'
+[2024-09-11T11:01:23.060] [DEBUG] debug-file - Change app compile API version with '5.0.0.65'
+[2024-09-11T11:01:23.060] [DEBUG] debug-file - Change app target API version with '50000012'
+[2024-09-11T11:01:23.060] [DEBUG] debug-file - Change app minimum API version with '50000012'
+[2024-09-11T11:01:23.060] [DEBUG] debug-file - Use cli appEnvironment
+[2024-09-11T11:01:23.062] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.19384002685546875
+[2024-09-11T11:01:23.062] [DEBUG] debug-file - runTaskFromQueue task cost before running: 648 ms 
+[2024-09-11T11:01:23.062] [INFO] debug-file - Finished :entry:default@MergeProfile... after 2 ms 
+[2024-09-11T11:01:23.063] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.063] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.063] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:23.065] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-09-11T11:01:23.065] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:23.066] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:23.067] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:23.068] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:23.068] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:23.070] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5260543823242188
+[2024-09-11T11:01:23.070] [DEBUG] debug-file - runTaskFromQueue task cost before running: 656 ms 
+[2024-09-11T11:01:23.070] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:23.071] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:23.072] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 6 ms 
+[2024-09-11T11:01:23.072] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.072] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.073] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2024-09-11T11:01:23.073] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.0129547119140625
+[2024-09-11T11:01:23.073] [DEBUG] debug-file - runTaskFromQueue task cost before running: 659 ms 
+[2024-09-11T11:01:23.073] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2024-09-11T11:01:23.074] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:23.074] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:23.074] [DEBUG] debug-file - Executing task :shortVideo:default@BuildNativeWithNinja
+[2024-09-11T11:01:23.075] [DEBUG] debug-file - shortVideo : default@BuildNativeWithNinja cost memory 0.0336761474609375
+[2024-09-11T11:01:23.075] [DEBUG] debug-file - runTaskFromQueue task cost before running: 661 ms 
+[2024-09-11T11:01:23.075] [INFO] debug-file - Finished :shortVideo:default@BuildNativeWithNinja... after 1 ms 
+[2024-09-11T11:01:23.076] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.076] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.076] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-09-11T11:01:23.077] [DEBUG] debug-file - [
+  '/Applications/DevEco-Studio.app/Contents/tools/node/bin/node',
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/build-tools/ets-loader/bin/ark/ts2abc.js',
+  '--target-api-version',
+  '12',
+  '--target-api-sub-version',
+  'beta1'
+]
+[2024-09-11T11:01:23.187] [DEBUG] debug-file - 12.0.2.0
+[2024-09-11T11:01:23.188] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.21695709228515625
+[2024-09-11T11:01:23.188] [DEBUG] debug-file - runTaskFromQueue task cost before running: 775 ms 
+[2024-09-11T11:01:23.188] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 112 ms 
+[2024-09-11T11:01:23.190] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.190] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.190] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2024-09-11T11:01:23.190] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01401519775390625
+[2024-09-11T11:01:23.190] [DEBUG] debug-file - runTaskFromQueue task cost before running: 777 ms 
+[2024-09-11T11:01:23.190] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2024-09-11T11:01:23.191] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:23.191] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:23.192] [DEBUG] debug-file - Executing task :shortVideo:default@ProcessLibs
+[2024-09-11T11:01:23.193] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-09-11T11:01:23.194] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-09-11T11:01:23.194] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-09-11T11:01:23.196] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-09-11T11:01:23.196] [DEBUG] debug-file - default@ProcessLibs work[12] is submitted.
+[2024-09-11T11:01:23.197] [DEBUG] debug-file - default@ProcessLibs work[12] is pushed to ready queue.
+[2024-09-11T11:01:23.197] [DEBUG] debug-file - default@ProcessLibs work[12] is not dispatched.
+[2024-09-11T11:01:23.197] [DEBUG] debug-file - shortVideo : default@ProcessLibs cost memory 0.5473480224609375
+[2024-09-11T11:01:23.199] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.199] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.199] [DEBUG] debug-file - restool module names: entry,shortVideo; moduleName=entry, taskName=default@ProcessResource
+[2024-09-11T11:01:23.202] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2024-09-11T11:01:23.202] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.0876312255859375
+[2024-09-11T11:01:23.203] [DEBUG] debug-file - runTaskFromQueue task cost before running: 789 ms 
+[2024-09-11T11:01:23.203] [INFO] debug-file - Finished :entry:default@ProcessResource... after 3 ms 
+[2024-09-11T11:01:23.204] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.205] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.205] [DEBUG] debug-file - restool module names: entry,shortVideo; moduleName=entry, taskName=default@CompileResource
+[2024-09-11T11:01:23.206] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2024-09-11T11:01:23.209] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-l',
+  '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resConfig.json'
+]
+[2024-09-11T11:01:23.210] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 156975104,
+  heapTotal: 133660672,
+  heapUsed: 95948968,
+  external: 3192554,
+  arrayBuffers: 913406
+} os memoryUsage :15.935867309570312
+[2024-09-11T11:01:23.536] [DEBUG] debug-file - Warning: 'EntryAbility_desc' conflict, first declared.
+at /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/resources/base/element/string.json
+but declared again.
+at /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources/base/element/string.json
+Warning: 'EntryAbility_label' conflict, first declared.
+at /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/resources/base/element/string.json
+but declared again.
+at /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources/base/element/string.json
+
+[2024-09-11T11:01:23.536] [DEBUG] debug-file - Warning: 'module_desc' conflict, first declared.
+at /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/resources/base/element/string.json
+but declared again.
+at /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources/base/element/string.json
+Warning: 'start_window_background' conflict, first declared.
+at /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/resources/base/element/color.json
+but declared again.
+at /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources/base/element/color.json
+
+[2024-09-11T11:01:23.580] [DEBUG] debug-file - Warning: /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/resources/base/media/layered_image.json is not png format
+
+[2024-09-11T11:01:23.581] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2024-09-11T11:01:23.582] [WARN] debug-file - Warning: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources/base/media/app_icon.png' is defined repeatedly.
+Warning: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources/base/media/background.png' is defined repeatedly.
+Warning: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources/base/media/foreground.png' is defined repeatedly.
+Warning: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources/base/media/layered_image.json' is defined repeatedly.
+Warning: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources/base/media/startIcon.png' is defined repeatedly.
+
+[2024-09-11T11:01:23.582] [DEBUG] debug-file - entry : default@CompileResource cost memory -13.340843200683594
+[2024-09-11T11:01:23.583] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 169 ms 
+[2024-09-11T11:01:23.583] [INFO] debug-file - Finished :entry:default@CompileResource... after 377 ms 
+[2024-09-11T11:01:23.584] [DEBUG] debug-file - Executing task :entry:buildHotReloadResource
+[2024-09-11T11:01:23.584] [DEBUG] debug-file - Hot reload resources ready.
+[2024-09-11T11:01:23.584] [DEBUG] debug-file - entry : buildHotReloadResource cost memory 0.021514892578125
+[2024-09-11T11:01:23.584] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 171 ms 
+[2024-09-11T11:01:23.584] [INFO] debug-file - Finished :entry:buildHotReloadResource... after 1 ms 
+[2024-09-11T11:01:23.585] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:23.585] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:23.587] [DEBUG] debug-file - Executing task :entry:default@ColdReloadArkTS
+[2024-09-11T11:01:23.590] [DEBUG] debug-file - entry : default@ColdReloadArkTS cost memory 0.37353515625
+[2024-09-11T11:01:23.590] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 177 ms 
+[2024-09-11T11:01:23.591] [INFO] debug-file - Finished :entry:default@ColdReloadArkTS... after 4 ms 
+[2024-09-11T11:01:23.702] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-09-11T11:01:23.702] [DEBUG] debug-file - Create  resident worker with id: 6.
+[2024-09-11T11:01:23.702] [DEBUG] debug-file - default@ProcessLibs work[12] has been dispatched to worker[6].
+[2024-09-11T11:01:24.221] [DEBUG] debug-file - worker[6] has one work done.
+[2024-09-11T11:01:24.221] [DEBUG] debug-file - default@ProcessLibs work[12] done.
+[2024-09-11T11:01:24.221] [INFO] debug-file - Finished :shortVideo:default@ProcessLibs... after 525 ms 
+[2024-09-11T11:01:24.223] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:24.223] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:24.224] [DEBUG] debug-file - Executing task :shortVideo:default@DoNativeStrip
+[2024-09-11T11:01:24.224] [DEBUG] debug-file - default@DoNativeStrip work[13] is submitted.
+[2024-09-11T11:01:24.224] [DEBUG] debug-file - default@DoNativeStrip work[13] is pushed to ready queue.
+[2024-09-11T11:01:24.224] [DEBUG] debug-file - default@DoNativeStrip work[13] is not dispatched.
+[2024-09-11T11:01:24.224] [DEBUG] debug-file - shortVideo : default@DoNativeStrip cost memory 0.12899017333984375
+[2024-09-11T11:01:24.424] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-09-11T11:01:24.425] [DEBUG] debug-file - default@DoNativeStrip work[13] has been dispatched to worker[6].
+[2024-09-11T11:01:24.436] [DEBUG] debug-file - worker[6] has one work done.
+[2024-09-11T11:01:24.437] [DEBUG] debug-file - default@DoNativeStrip work[13] done.
+[2024-09-11T11:01:24.437] [INFO] debug-file - Finished :shortVideo:default@DoNativeStrip... after 13 ms 
+[2024-09-11T11:01:24.438] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:24.438] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:24.438] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2024-09-11T11:01:24.438] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.03212738037109375
+[2024-09-11T11:01:24.439] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 25 ms 
+[2024-09-11T11:01:24.439] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2024-09-11T11:01:24.439] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:24.439] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:24.441] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2024-09-11T11:01:24.442] [DEBUG] debug-file - default@ProcessLibs work[14] is submitted.
+[2024-09-11T11:01:24.442] [DEBUG] debug-file - default@ProcessLibs work[14] is pushed to ready queue.
+[2024-09-11T11:01:24.442] [DEBUG] debug-file - default@ProcessLibs work[14] is not dispatched.
+[2024-09-11T11:01:24.442] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.43546295166015625
+[2024-09-11T11:01:24.625] [DEBUG] debug-file - default@ProcessLibs work[14] has been dispatched to worker[6].
+[2024-09-11T11:01:24.625] [DEBUG] debug-file - worker[6] has one work done.
+[2024-09-11T11:01:24.625] [DEBUG] debug-file - default@ProcessLibs work[14] done.
+[2024-09-11T11:01:24.625] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 2 ms 
+[2024-09-11T11:01:24.626] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:24.626] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:24.627] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2024-09-11T11:01:24.628] [DEBUG] debug-file - default@DoNativeStrip work[15] is submitted.
+[2024-09-11T11:01:24.628] [DEBUG] debug-file - default@DoNativeStrip work[15] is pushed to ready queue.
+[2024-09-11T11:01:24.628] [DEBUG] debug-file - default@DoNativeStrip work[15] is not dispatched.
+[2024-09-11T11:01:24.629] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.12717437744140625
+[2024-09-11T11:01:24.728] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-09-11T11:01:24.729] [DEBUG] debug-file - default@DoNativeStrip work[15] has been dispatched to worker[6].
+[2024-09-11T11:01:24.731] [DEBUG] debug-file - worker[6] has one work done.
+[2024-09-11T11:01:24.731] [DEBUG] debug-file - default@DoNativeStrip work[15] done.
+[2024-09-11T11:01:24.731] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 5 ms 
+[2024-09-11T11:01:24.733] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:24.733] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:24.735] [DEBUG] debug-file - Executing task :entry:default@PrepareQuickfix
+[2024-09-11T11:01:24.744] [DEBUG] debug-file - Prepare com.example.douyindemo quickfix with patch versionCode 3000000.
+[2024-09-11T11:01:24.744] [DEBUG] debug-file - entry : default@PrepareQuickfix cost memory 0.2762908935546875
+[2024-09-11T11:01:24.744] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 331 ms 
+[2024-09-11T11:01:24.745] [INFO] debug-file - Finished :entry:default@PrepareQuickfix... after 10 ms 
+[2024-09-11T11:01:24.746] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:24.746] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:24.746] [DEBUG] debug-file - Executing task :entry:default@PackageHqf
+[2024-09-11T11:01:24.747] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 261128192,
+  heapTotal: 133922816,
+  heapUsed: 101153520,
+  external: 3120502,
+  arrayBuffers: 209033
+} os memoryUsage :15.811325073242188
+[2024-09-11T11:01:24.837] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-09-11T11:01:25.033] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-09-11T11:01:25.114] [DEBUG] debug-file - entry : default@PackageHqf cost memory 0.267608642578125
+[2024-09-11T11:01:25.115] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 701 ms 
+[2024-09-11T11:01:25.115] [INFO] debug-file - Finished :entry:default@PackageHqf... after 369 ms 
+[2024-09-11T11:01:25.116] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:25.116] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:25.116] [DEBUG] debug-file - Executing task :entry:default@SignHqf
+[2024-09-11T11:01:25.116] [DEBUG] debug-file - entry : default@SignHqf cost memory 0.10091400146484375
+[2024-09-11T11:01:25.116] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 703 ms 
+[2024-09-11T11:01:25.117] [INFO] debug-file - Finished :entry:default@SignHqf... after 1 ms 
+[2024-09-11T11:01:25.117] [DEBUG] debug-file - Executing task :entry:assembleDevHqf
+[2024-09-11T11:01:25.118] [DEBUG] debug-file - entry : assembleDevHqf cost memory 0.041595458984375
+[2024-09-11T11:01:25.118] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 704 ms 
+[2024-09-11T11:01:25.118] [INFO] debug-file - Finished :entry:assembleDevHqf... after 1 ms 
+[2024-09-11T11:01:25.119] [DEBUG] debug-file - BUILD SUCCESSFUL in 2 s 706 ms 
+[2024-09-11T11:01:25.119] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/AppScope/app.json5 cache by regenerate.
+[2024-09-11T11:01:25.119] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/module.json5 cache by regenerate.
+[2024-09-11T11:01:25.119] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.119] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.119] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/resources/base/profile/main_pages.json cache by regenerate.
+[2024-09-11T11:01:25.119] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/hvigor/hvigor-config.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/mock/mock-config.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/oh-package.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:1 ms .
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/AppScope/app.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/module.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/hvigor/hvigor-config.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@PreBuild input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/oh-package.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Incremental task shortVideo:default@PreBuild post-execution cost:1 ms .
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@CreateHarBuildProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/AppScope/app.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@CreateHarBuildProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@CreateHarBuildProfile output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/BuildProfile.ets cache.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Incremental task shortVideo:default@CreateHarBuildProfile post-execution cost:1 ms .
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@MergeProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/AppScope/app.json5 cache by regenerate.
+[2024-09-11T11:01:25.120] [DEBUG] debug-file - Update task shortVideo:default@MergeProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task shortVideo:default@MergeProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/module.json5 cache by regenerate.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task shortVideo:default@MergeProfile output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/build/default/intermediates/merge_profile/default/module.json cache.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Incremental task shortVideo:default@MergeProfile post-execution cost:1 ms .
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/oh-package.json5 cache by regenerate.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/oh-package.json5 cache by regenerate.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/module.json5 cache by regenerate.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/router_map/default/temp-router-map.json cache.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/router_map/default/loader-router-map.json cache.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:1 ms .
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/AppScope/app.json5 cache by regenerate.
+[2024-09-11T11:01:25.121] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.122] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/generated/profile/default/BuildProfile.ets cache.
+[2024-09-11T11:01:25.122] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2024-09-11T11:01:25.122] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/AppScope/app.json5 cache by regenerate.
+[2024-09-11T11:01:25.122] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.122] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/module.json5 cache by regenerate.
+[2024-09-11T11:01:25.122] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/build/default/intermediates/merge_profile/default/module.json cache by regenerate.
+[2024-09-11T11:01:25.122] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/merge_profile/default/module.json cache.
+[2024-09-11T11:01:25.122] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/mock/mock-config.json5 cache by regenerate.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/router_map/default/temp-router-map.json cache by regenerate.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/loader.json cache.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:1 ms .
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/merge_profile/default/module.json cache by regenerate.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/process_profile/default/module.json cache.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task shortVideo:default@ProcessLibs input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task shortVideo:default@ProcessLibs input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task shortVideo:default@ProcessLibs output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/build/default/intermediates/libs/default cache.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Incremental task shortVideo:default@ProcessLibs post-execution cost:1 ms .
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resConfig.json cache.
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2024-09-11T11:01:25.123] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/resources cache by regenerate.
+[2024-09-11T11:01:25.125] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/resources cache by regenerate.
+[2024-09-11T11:01:25.126] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/AppScope/resources cache by regenerate.
+[2024-09-11T11:01:25.126] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/process_profile/default/module.json cache by regenerate.
+[2024-09-11T11:01:25.126] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resConfig.json cache by regenerate.
+[2024-09-11T11:01:25.126] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default cache.
+[2024-09-11T11:01:25.128] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/generated/r/default/ResourceTable.h cache.
+[2024-09-11T11:01:25.128] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/generated/r/default cache.
+[2024-09-11T11:01:25.128] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:6 ms .
+[2024-09-11T11:01:25.130] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default cache by regenerate.
+[2024-09-11T11:01:25.130] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/Index.ets cache by regenerate.
+[2024-09-11T11:01:25.130] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/ets cache by regenerate.
+[2024-09-11T11:01:25.130] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2024-09-11T11:01:25.131] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2024-09-11T11:01:25.131] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2024-09-11T11:01:25.131] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2024-09-11T11:01:25.131] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/ets cache by regenerate.
+[2024-09-11T11:01:25.132] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2024-09-11T11:01:25.132] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2024-09-11T11:01:25.132] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/BuildProfile.ets cache by regenerate.
+[2024-09-11T11:01:25.132] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/mock/mock-config.json5 cache by regenerate.
+[2024-09-11T11:01:25.132] [DEBUG] debug-file - Update task entry:default@ColdReloadArkTS output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader_out/default/ets cache.
+[2024-09-11T11:01:25.132] [DEBUG] debug-file - Incremental task entry:default@ColdReloadArkTS post-execution cost:4 ms .
+[2024-09-11T11:01:25.132] [DEBUG] debug-file - Update task shortVideo:default@DoNativeStrip input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/build/default/intermediates/libs/default cache by regenerate.
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Update task shortVideo:default@DoNativeStrip output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/build/default/intermediates/stripped_native_libs/default cache.
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Incremental task shortVideo:default@DoNativeStrip post-execution cost:1 ms .
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/build/default/intermediates/libs/default cache by regenerate.
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/libs/default cache.
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:1 ms .
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/libs/default cache by regenerate.
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/stripped_native_libs/default cache.
+[2024-09-11T11:01:25.133] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:1 ms .
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Cleanup worker 0.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Current idle worker size: 2.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Current resident worker size: 3.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Cleanup worker 1.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Current resident worker size: 3.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Cleanup worker 6.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Worker 6 has been cleaned up.
+[2024-09-11T11:01:25.140] [DEBUG] debug-file - Current idle worker size: 0.
+[2024-09-11T11:01:25.141] [DEBUG] debug-file - Current resident worker size: 3.
+[2024-09-11T11:01:25.141] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-09-11T11:01:25.144] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2024-09-11T11:01:25.144] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2024-09-11T11:01:25.147] [DEBUG] debug-file - worker[6] exits with exit code 1.
+[2024-09-11T11:01:25.250] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-09-11T11:01:25.250] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-09-11T11:01:25.250] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-09-11T11:01:25.250] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-09-11T11:01:44.745] [DEBUG] debug-file - session manager: set active socket. socketId=1NAahj-jPYKGRtT_AAAL
+[2024-09-11T11:01:44.750] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-09-11T11:01:44.761] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-09-11T11:01:44.771] [DEBUG] debug-file - Cache service initialization finished in 11 ms 
+[2024-09-11T11:01:44.785] [DEBUG] debug-file - hvigorfile, resolving /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/hvigorfile.ts
+[2024-09-11T11:01:44.800] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-09-11T11:01:44.800] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-09-11T11:01:44.949] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-09-11T11:01:44.949] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-09-11T11:01:44.949] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-09-11T11:01:44.949] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-09-11T11:01:44.950] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  }
+} in this build.
+[2024-09-11T11:01:44.959] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2024-09-11T11:01:44.962] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2024-09-11T11:01:44.981] [DEBUG] debug-file - Sdk init in 22 ms 
+[2024-09-11T11:01:44.990] [DEBUG] debug-file - Project task initialization takes 8 ms 
+[2024-09-11T11:01:44.990] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-09-11T11:01:44.990] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/hvigorfile.ts
+[2024-09-11T11:01:44.990] [DEBUG] debug-file - hvigorfile, resolve finished /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/hvigorfile.ts
+[2024-09-11T11:01:44.994] [DEBUG] debug-file - hvigorfile, resolving /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/hvigorfile.ts
+[2024-09-11T11:01:44.999] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-09-11T11:01:44.999] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-09-11T11:01:45.011] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-09-11T11:01:45.011] [DEBUG] debug-file - Target 'default' config: {}
+[2024-09-11T11:01:45.011] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-09-11T11:01:45.012] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2024-09-11T11:01:45.012] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2024-09-11T11:01:45.012] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-09-11T11:01:45.012] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.016] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2024-09-11T11:01:45.016] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-09-11T11:01:45.016] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/hvigorfile.ts
+[2024-09-11T11:01:45.016] [DEBUG] debug-file - hvigorfile, resolve finished /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/hvigorfile.ts
+[2024-09-11T11:01:45.022] [DEBUG] debug-file - hvigorfile, resolving /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/hvigorfile.ts
+[2024-09-11T11:01:45.025] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-09-11T11:01:45.025] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-09-11T11:01:45.062] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=shortVideo, buildMode=debug
+[2024-09-11T11:01:45.063] [DEBUG] debug-file - Target 'default' config: {}
+[2024-09-11T11:01:45.063] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-09-11T11:01:45.063] [DEBUG] debug-file - Module 'shortVideo' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2024-09-11T11:01:45.063] [DEBUG] debug-file - Module 'shortVideo' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2024-09-11T11:01:45.063] [DEBUG] debug-file - End initialize module-target build option map, moduleName=shortVideo
+[2024-09-11T11:01:45.063] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.066] [DEBUG] debug-file - Module shortVideo task initialization takes 1 ms 
+[2024-09-11T11:01:45.066] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-09-11T11:01:45.066] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/hvigorfile.ts
+[2024-09-11T11:01:45.066] [DEBUG] debug-file - hvigorfile, resolve finished /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/hvigorfile.ts
+[2024-09-11T11:01:45.118] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 51 ms 
+[2024-09-11T11:01:45.120] [DEBUG] debug-file - project has submodules:entry,shortVideo
+[2024-09-11T11:01:45.121] [DEBUG] debug-file - module:shortVideo no need to execute packageHap
+[2024-09-11T11:01:45.122] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-09-11T11:01:45.125] [DEBUG] debug-file - load to the disk finished
+[2024-09-11T11:01:45.126] [DEBUG] debug-file - Module douyinDemo Collected Dependency: 
+[2024-09-11T11:01:45.126] [DEBUG] debug-file - Module douyinDemo's total dependency: 0
+[2024-09-11T11:01:45.126] [DEBUG] debug-file - Module entry Collected Dependency: /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo
+[2024-09-11T11:01:45.126] [DEBUG] debug-file - Module entry's total dependency: 1
+[2024-09-11T11:01:45.128] [DEBUG] debug-file - Module shortVideo Collected Dependency: 
+[2024-09-11T11:01:45.128] [DEBUG] debug-file - Module shortVideo's total dependency: 0
+[2024-09-11T11:01:45.130] [DEBUG] debug-file - Configuration phase cost:352 ms 
+[2024-09-11T11:01:45.132] [DEBUG] debug-file - Configuration task cost before running: 379 ms 
+[2024-09-11T11:01:45.133] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.133] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.134] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-09-11T11:01:45.135] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.136] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.20886993408203125
+[2024-09-11T11:01:45.136] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2024-09-11T11:01:45.137] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:45.137] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:45.138] [DEBUG] debug-file - Executing task :shortVideo:default@PreBuild
+[2024-09-11T11:01:45.139] [DEBUG] debug-file - Incremental task shortVideo:default@PreBuild pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.139] [DEBUG] debug-file - shortVideo : default@PreBuild cost memory 0.1494598388671875
+[2024-09-11T11:01:45.140] [INFO] debug-file - UP-TO-DATE :shortVideo:default@PreBuild...  
+[2024-09-11T11:01:45.142] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.142] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.143] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2024-09-11T11:01:45.145] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.09157562255859375
+[2024-09-11T11:01:45.145] [DEBUG] debug-file - runTaskFromQueue task cost before running: 391 ms 
+[2024-09-11T11:01:45.145] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 2 ms 
+[2024-09-11T11:01:45.147] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.154] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.156] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-09-11T11:01:45.156] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.0132598876953125
+[2024-09-11T11:01:45.157] [DEBUG] debug-file - runTaskFromQueue task cost before running: 403 ms 
+[2024-09-11T11:01:45.157] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-09-11T11:01:45.159] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.159] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.163] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2024-09-11T11:01:45.164] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.164] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.0486602783203125
+[2024-09-11T11:01:45.164] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgContextInfo...  
+[2024-09-11T11:01:45.165] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.165] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.165] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2024-09-11T11:01:45.166] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.044677734375
+[2024-09-11T11:01:45.166] [DEBUG] debug-file - runTaskFromQueue task cost before running: 413 ms 
+[2024-09-11T11:01:45.166] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 1 ms 
+[2024-09-11T11:01:45.166] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:45.167] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:45.167] [DEBUG] debug-file - Executing task :shortVideo:default@CreateHarBuildProfile
+[2024-09-11T11:01:45.167] [DEBUG] debug-file - Incremental task shortVideo:default@CreateHarBuildProfile pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.167] [DEBUG] debug-file - shortVideo : default@CreateHarBuildProfile cost memory 0.06067657470703125
+[2024-09-11T11:01:45.167] [INFO] debug-file - UP-TO-DATE :shortVideo:default@CreateHarBuildProfile...  
+[2024-09-11T11:01:45.168] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:45.168] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:45.168] [DEBUG] debug-file - Executing task :shortVideo:default@ConfigureCmake
+[2024-09-11T11:01:45.168] [DEBUG] debug-file - shortVideo : default@ConfigureCmake cost memory 0.01409149169921875
+[2024-09-11T11:01:45.168] [DEBUG] debug-file - runTaskFromQueue task cost before running: 415 ms 
+[2024-09-11T11:01:45.168] [INFO] debug-file - Finished :shortVideo:default@ConfigureCmake... after 1 ms 
+[2024-09-11T11:01:45.169] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:45.169] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:45.170] [DEBUG] debug-file - Executing task :shortVideo:default@MergeProfile
+[2024-09-11T11:01:45.171] [DEBUG] debug-file - Incremental task shortVideo:default@MergeProfile pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.171] [DEBUG] debug-file - shortVideo : default@MergeProfile cost memory 0.07933807373046875
+[2024-09-11T11:01:45.171] [INFO] debug-file - UP-TO-DATE :shortVideo:default@MergeProfile...  
+[2024-09-11T11:01:45.172] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.172] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.173] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2024-09-11T11:01:45.173] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.0256195068359375
+[2024-09-11T11:01:45.173] [DEBUG] debug-file - runTaskFromQueue task cost before running: 420 ms 
+[2024-09-11T11:01:45.173] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 1 ms 
+[2024-09-11T11:01:45.174] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.174] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.174] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2024-09-11T11:01:45.176] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.176] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.1937408447265625
+[2024-09-11T11:01:45.177] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2024-09-11T11:01:45.177] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.177] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.178] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-09-11T11:01:45.179] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.179] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.10327911376953125
+[2024-09-11T11:01:45.179] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2024-09-11T11:01:45.180] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:45.180] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:45.180] [DEBUG] debug-file - Executing task :shortVideo:default@BuildNativeWithCmake
+[2024-09-11T11:01:45.180] [DEBUG] debug-file - shortVideo : default@BuildNativeWithCmake cost memory 0.014129638671875
+[2024-09-11T11:01:45.180] [DEBUG] debug-file - runTaskFromQueue task cost before running: 427 ms 
+[2024-09-11T11:01:45.180] [INFO] debug-file - Finished :shortVideo:default@BuildNativeWithCmake... after 1 ms 
+[2024-09-11T11:01:45.181] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.181] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.182] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-09-11T11:01:45.182] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.182] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.0923919677734375
+[2024-09-11T11:01:45.182] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2024-09-11T11:01:45.183] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.183] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.183] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.185] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-09-11T11:01:45.186] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.187] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.188] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.189] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.190] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.190] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 3 ms .
+[2024-09-11T11:01:45.190] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.545684814453125
+[2024-09-11T11:01:45.190] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.191] [DEBUG] debug-file - Module 'shortVideo' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2024-09-11T11:01:45.191] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2024-09-11T11:01:45.192] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.192] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.192] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2024-09-11T11:01:45.192] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.01296234130859375
+[2024-09-11T11:01:45.192] [DEBUG] debug-file - runTaskFromQueue task cost before running: 439 ms 
+[2024-09-11T11:01:45.192] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2024-09-11T11:01:45.192] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:45.192] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:45.193] [DEBUG] debug-file - Executing task :shortVideo:default@BuildNativeWithNinja
+[2024-09-11T11:01:45.193] [DEBUG] debug-file - shortVideo : default@BuildNativeWithNinja cost memory 0.029052734375
+[2024-09-11T11:01:45.193] [DEBUG] debug-file - runTaskFromQueue task cost before running: 440 ms 
+[2024-09-11T11:01:45.193] [INFO] debug-file - Finished :shortVideo:default@BuildNativeWithNinja... after 1 ms 
+[2024-09-11T11:01:45.194] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.194] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.195] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2024-09-11T11:01:45.197] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: {
+      bundleName: 'com.example.douyindemo',
+      bundleType: 'app',
+      version: [Object]
+    },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2024-09-11T11:01:45.198] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.1222381591796875
+[2024-09-11T11:01:45.198] [DEBUG] debug-file - runTaskFromQueue task cost before running: 445 ms 
+[2024-09-11T11:01:45.198] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 3 ms 
+[2024-09-11T11:01:45.199] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.199] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.200] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-09-11T11:01:45.200] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.200] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.0511016845703125
+[2024-09-11T11:01:45.200] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2024-09-11T11:01:45.201] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.201] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.201] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2024-09-11T11:01:45.202] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01401519775390625
+[2024-09-11T11:01:45.202] [DEBUG] debug-file - runTaskFromQueue task cost before running: 448 ms 
+[2024-09-11T11:01:45.202] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2024-09-11T11:01:45.202] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:45.202] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:45.204] [DEBUG] debug-file - Executing task :shortVideo:default@ProcessLibs
+[2024-09-11T11:01:45.205] [DEBUG] debug-file - Incremental task shortVideo:default@ProcessLibs pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.205] [DEBUG] debug-file - shortVideo : default@ProcessLibs cost memory 0.05733489990234375
+[2024-09-11T11:01:45.205] [INFO] debug-file - UP-TO-DATE :shortVideo:default@ProcessLibs...  
+[2024-09-11T11:01:45.206] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.206] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.206] [DEBUG] debug-file - restool module names: entry,shortVideo; moduleName=entry, taskName=default@ProcessResource
+[2024-09-11T11:01:45.207] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2024-09-11T11:01:45.208] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.208] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.09722137451171875
+[2024-09-11T11:01:45.209] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2024-09-11T11:01:45.209] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-09-11T11:01:45.209] [DEBUG] debug-file - jsonObjWithoutParam {"name":"shortvideo","version":"1.0.0","description":"Please describe the basic information.","main":"Index.ets","author":"","license":"Apache-2.0","dependencies":{}} at undefined
+[2024-09-11T11:01:45.210] [DEBUG] debug-file - Executing task :shortVideo:default@DoNativeStrip
+[2024-09-11T11:01:45.211] [DEBUG] debug-file - Incremental task shortVideo:default@DoNativeStrip pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.211] [DEBUG] debug-file - shortVideo : default@DoNativeStrip cost memory 0.04817962646484375
+[2024-09-11T11:01:45.211] [INFO] debug-file - UP-TO-DATE :shortVideo:default@DoNativeStrip...  
+[2024-09-11T11:01:45.212] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.212] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.212] [DEBUG] debug-file - restool module names: entry,shortVideo; moduleName=entry, taskName=default@CompileResource
+[2024-09-11T11:01:45.213] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2024-09-11T11:01:45.220] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 7 ms .
+[2024-09-11T11:01:45.220] [DEBUG] debug-file - entry : default@CompileResource cost memory 1.3832473754882812
+[2024-09-11T11:01:45.221] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2024-09-11T11:01:45.222] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.222] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.222] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2024-09-11T11:01:45.222] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.02898406982421875
+[2024-09-11T11:01:45.222] [DEBUG] debug-file - runTaskFromQueue task cost before running: 469 ms 
+[2024-09-11T11:01:45.222] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 1 ms 
+[2024-09-11T11:01:45.223] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.223] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.224] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2024-09-11T11:01:45.231] [DEBUG] debug-file - build config:
+[2024-09-11T11:01:45.231] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources/base/profile',
+  etsLoaderPath: '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/build-tools/ets-loader',
+  modulePath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo',
+  compileSdkVersion: 12,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'com.example.douyindemo',
+  etsLoaderVersion: '5.0.0.65',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'b860a15d1cfaa1481e4bd5ae76094e7e',
+  externalApiPaths: [ '/Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/generated/profile/default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 12,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: { caseSensitiveCheck: true, useNormalizedOHMUrl: true },
+  buildDir: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build',
+  deviceTypes: [ 'phone', '2in1', 'car' ],
+  useNormalizedOHMUrl: true,
+  pkgContextInfo: {
+    shortvideo: {
+      packageName: 'shortvideo',
+      bundleName: '',
+      moduleName: '',
+      version: '1.0.0',
+      entryPath: 'Index.ets',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    '@ohos/hypium': {
+      packageName: '@ohos/hypium',
+      bundleName: '',
+      moduleName: '',
+      version: '1.0.19',
+      entryPath: 'index.js',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    '@ohos/hamock': {
+      packageName: '@ohos/hamock',
+      bundleName: '',
+      moduleName: '',
+      version: '1.0.0',
+      entryPath: 'index.ets',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    entry: {
+      packageName: 'entry',
+      bundleName: '',
+      moduleName: '',
+      version: '',
+      entryPath: 'src/main/',
+      isSO: false,
+      dependencyAlias: ''
+    }
+  },
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo' ],
+  useNativeResolver: false,
+  aceModuleJsonPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/module.json',
+  appResource: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/ResourceTable.txt',
+  rawFileResource: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources/rawfile',
+  resourceTableHash: '8fa3eb8784f206ece7f2659879ca0e03',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:12:5.0.0.65:Release',
+  aceModuleRoot: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/supervisual',
+  aceBuildJson: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/loader.json',
+  cachePath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/cache/default/default@CompileArkTS/esmodule/debug',
+  aceModuleBuild: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader_out/default/ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    shortvideo: {
+      pkgRoot: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo',
+      pkgName: 'shortvideo',
+      sourceRoots: [Array],
+      originalSourceRoots: undefined
+    },
+    entry: {
+      pkgRoot: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry',
+      belongProjectPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo'
+    },
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/src/ohosTest/ets': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry',
+      belongProjectPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo'
+    },
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry',
+      belongProjectPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo'
+    },
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry',
+      belongProjectPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo'
+    },
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main': {
+      moduleName: 'shortVideo',
+      modulePkgPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo',
+      belongProjectPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo'
+    },
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/build/default/intermediates/src/ohosTest/ets': {
+      moduleName: 'shortVideo_test',
+      modulePkgPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo',
+      belongProjectPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo'
+    },
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/ohosTest': {
+      moduleName: 'shortVideo_test',
+      modulePkgPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo',
+      belongProjectPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo'
+    },
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo': {
+      moduleName: 'shortVideo',
+      modulePkgPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo',
+      belongProjectPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo'
+    },
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo': {
+      moduleName: 'douyinDemo',
+      modulePkgPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo',
+      belongProjectPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo'
+    }
+  },
+  pkgJsonFileHash: '4dffb2362e1750fd023df32afb90d22b',
+  allModulePaths: [
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry',
+    '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo'
+  ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  overallProjectPaths: [ '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/mock/mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'shortvideo/*': [
+      '../../../../shortVideo/src/main/*',
+      '../../../../shortVideo/build/default/generated/profile/default/*'
+    ],
+    'entry/*': [ '../*', '../../../build/default/generated/profile/default/*' ]
+  },
+  collectImportersConfig: undefined
+}
+[2024-09-11T11:01:45.232] [DEBUG] debug-file - Compile arkts with external api path: /Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets
+[2024-09-11T11:01:45.232] [DEBUG] debug-file - default@CompileArkTS work[16] is submitted.
+[2024-09-11T11:01:45.232] [DEBUG] debug-file - default@CompileArkTS work[16] is pushed to ready queue.
+[2024-09-11T11:01:45.232] [DEBUG] debug-file - default@CompileArkTS work[16] is not dispatched.
+[2024-09-11T11:01:45.232] [DEBUG] debug-file - CopyResources startTime: 4973262166994708
+[2024-09-11T11:01:45.232] [DEBUG] debug-file - default@CompileArkTS work[17] is submitted.
+[2024-09-11T11:01:45.233] [DEBUG] debug-file - default@CompileArkTS work[17] is pushed to ready queue.
+[2024-09-11T11:01:45.233] [DEBUG] debug-file - default@CompileArkTS work[17] is not dispatched.
+[2024-09-11T11:01:45.233] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.0332412719726562
+[2024-09-11T11:01:45.233] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.233] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.235] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2024-09-11T11:01:45.236] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.14720916748046875
+[2024-09-11T11:01:45.236] [DEBUG] debug-file - runTaskFromQueue task cost before running: 483 ms 
+[2024-09-11T11:01:45.236] [INFO] debug-file - Finished :entry:default@BuildJS... after 2 ms 
+[2024-09-11T11:01:45.237] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.237] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.239] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2024-09-11T11:01:45.240] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.240] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.05878448486328125
+[2024-09-11T11:01:45.240] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2024-09-11T11:01:45.240] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.240] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.241] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2024-09-11T11:01:45.241] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2024-09-11T11:01:45.242] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.04439544677734375
+[2024-09-11T11:01:45.242] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2024-09-11T11:01:45.242] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:45.242] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:45.243] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2024-09-11T11:01:45.243] [DEBUG] debug-file - default@CacheNativeLibs work[18] is submitted.
+[2024-09-11T11:01:45.243] [DEBUG] debug-file - default@CacheNativeLibs work[18] is pushed to ready queue.
+[2024-09-11T11:01:45.243] [DEBUG] debug-file - default@CacheNativeLibs work[18] is not dispatched.
+[2024-09-11T11:01:45.243] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.1221160888671875
+[2024-09-11T11:01:45.333] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-09-11T11:01:45.333] [DEBUG] debug-file - Create  resident worker with id: 6.
+[2024-09-11T11:01:45.333] [DEBUG] debug-file - default@CompileArkTS work[17] has been dispatched to worker[6].
+[2024-09-11T11:01:45.636] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-09-11T11:01:45.636] [DEBUG] debug-file - A work dispatched to worker[6] failed because of worker busy.
+[2024-09-11T11:01:45.636] [DEBUG] debug-file - Create  resident worker with id: 5.
+[2024-09-11T11:01:45.638] [DEBUG] debug-file - default@CacheNativeLibs work[18] has been dispatched to worker[5].
+[2024-09-11T11:01:45.863] [DEBUG] debug-file - worker[6] has one work done.
+[2024-09-11T11:01:45.864] [DEBUG] debug-file - CopyResources is end, endTime: 4973262798240833
+[2024-09-11T11:01:45.864] [DEBUG] debug-file - default@CompileArkTS work[17] done.
+[2024-09-11T11:01:45.965] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-09-11T11:01:46.555] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-09-11T11:01:46.555] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2024-09-11T11:01:46.555] [DEBUG] debug-file - A work dispatched to worker[5] failed because of worker busy.
+[2024-09-11T11:01:46.555] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2024-09-11T11:01:46.555] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2024-09-11T11:01:46.555] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2024-09-11T11:01:46.555] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2024-09-11T11:01:46.555] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-09-11T11:01:46.556] [DEBUG] debug-file - default@CompileArkTS work[16] has been dispatched to worker[0].
+[2024-09-11T11:01:46.598] [DEBUG] debug-file - worker[5] has one work done.
+[2024-09-11T11:01:46.598] [DEBUG] debug-file - default@CacheNativeLibs work[18] done.
+[2024-09-11T11:01:46.599] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 962 ms 
+[2024-09-11T11:01:47.103] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2024-09-11T11:01:52.983] [DEBUG] debug-file - worker[0] has one work done.
+[2024-09-11T11:01:52.988] [DEBUG] debug-file - default@CompileArkTS work[16] done.
+[2024-09-11T11:01:52.989] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 6 s 972 ms 
+[2024-09-11T11:01:52.990] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:52.990] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:52.991] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2024-09-11T11:01:52.991] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.03408050537109375
+[2024-09-11T11:01:52.991] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 238 ms 
+[2024-09-11T11:01:52.991] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 1 ms 
+[2024-09-11T11:01:52.992] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:52.992] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:52.995] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2024-09-11T11:01:52.997] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=utf-8',
+  '-jar',
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/stripped_native_libs/default',
+  '--json-path',
+  '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/package/default/module.json',
+  '--resources-path',
+  '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources',
+  '--index-path',
+  '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources.index',
+  '--pack-info-path',
+  '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/outputs/default/pack.info',
+  '--out-path',
+  '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/outputs/default/entry-default-unsigned.hap',
+  '--ets-path',
+  '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader_out/default/ets',
+  '--pkg-context-path',
+  '/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/pkgContextInfo.json'
+]
+[2024-09-11T11:01:52.997] [DEBUG] debug-file - default@PackageHap work[19] is submitted.
+[2024-09-11T11:01:52.997] [DEBUG] debug-file - default@PackageHap work[19] is pushed to ready queue.
+[2024-09-11T11:01:52.997] [DEBUG] debug-file - default@PackageHap work[19] is not dispatched.
+[2024-09-11T11:01:52.998] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.48419189453125
+[2024-09-11T11:01:53.200] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2024-09-11T11:01:53.200] [DEBUG] debug-file - default@PackageHap work[19] has been dispatched to worker[6].
+[2024-09-11T11:01:53.636] [DEBUG] debug-file - worker[6] has one work done.
+[2024-09-11T11:01:53.636] [DEBUG] debug-file - default@PackageHap work[19] done.
+[2024-09-11T11:01:53.637] [INFO] debug-file - Finished :entry:default@PackageHap... after 440 ms 
+[2024-09-11T11:01:53.638] [DEBUG] debug-file - jsonObjWithoutParam {"shortvideo":"file:../shortVideo"} at undefined
+[2024-09-11T11:01:53.638] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{"shortvideo":"file:../shortVideo"}} at undefined
+[2024-09-11T11:01:53.639] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2024-09-11T11:01:53.640] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in /Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5.
+[2024-09-11T11:01:53.640] [DEBUG] debug-file - entry : default@SignHap cost memory 0.07666778564453125
+[2024-09-11T11:01:53.640] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 887 ms 
+[2024-09-11T11:01:53.640] [INFO] debug-file - Finished :entry:default@SignHap... after 1 ms 
+[2024-09-11T11:01:53.641] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2024-09-11T11:01:53.641] [DEBUG] debug-file - entry : assembleHap cost memory 0.01171112060546875
+[2024-09-11T11:01:53.641] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 888 ms 
+[2024-09-11T11:01:53.641] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2024-09-11T11:01:53.641] [DEBUG] debug-file - BUILD SUCCESSFUL in 8 s 888 ms 
+[2024-09-11T11:01:53.641] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2024-09-11T11:01:53.641] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task shortVideo:default@PreBuild is up-to-date.
+[2024-09-11T11:01:53.641] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/module.json5 cache by regenerate.
+[2024-09-11T11:01:53.642] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/hap_metadata/default/output_metadata.json cache.
+[2024-09-11T11:01:53.642] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2024-09-11T11:01:53.642] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgContextInfo is up-to-date.
+[2024-09-11T11:01:53.642] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build/cache/default/integrated_hsp/integratedHspCache.json cache.
+[2024-09-11T11:01:53.642] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2024-09-11T11:01:53.642] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task shortVideo:default@CreateHarBuildProfile is up-to-date.
+[2024-09-11T11:01:53.642] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task shortVideo:default@MergeProfile is up-to-date.
+[2024-09-11T11:01:53.642] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/syscap_tool cache by regenerate.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/api/device-define cache by regenerate.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/syscap/default/rpcid.sc cache.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:1 ms .
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/AppScope/app.json5 cache by regenerate.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/module.json5 cache by regenerate.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/build-profile.json5 cache by regenerate.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/resources/base/profile/backup_config.json cache by regenerate.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/outputs/default/pack.info cache.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:1 ms .
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task shortVideo:default@ProcessLibs is up-to-date.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task shortVideo:default@DoNativeStrip is up-to-date.
+[2024-09-11T11:01:53.643] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2024-09-11T11:01:53.644] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default cache by regenerate.
+[2024-09-11T11:01:53.644] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/Index.ets cache by regenerate.
+[2024-09-11T11:01:53.644] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/src/main/ets cache by regenerate.
+[2024-09-11T11:01:53.645] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2024-09-11T11:01:53.645] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2024-09-11T11:01:53.645] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2024-09-11T11:01:53.645] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2024-09-11T11:01:53.645] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/main/ets cache by regenerate.
+[2024-09-11T11:01:53.646] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2024-09-11T11:01:53.646] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2024-09-11T11:01:53.646] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/BuildProfile.ets cache by regenerate.
+[2024-09-11T11:01:53.646] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/src/mock/mock-config.json5 cache by regenerate.
+[2024-09-11T11:01:53.646] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader_out/default/ets cache.
+[2024-09-11T11:01:53.646] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:3 ms .
+[2024-09-11T11:01:53.647] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default cache by regenerate.
+[2024-09-11T11:01:53.647] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/shortVideo/Index.ets cache by regenerate.
+[2024-09-11T11:01:53.647] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2024-09-11T11:01:53.647] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2024-09-11T11:01:53.647] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2024-09-11T11:01:53.647] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2024-09-11T11:01:53.647] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2024-09-11T11:01:53.647] [DEBUG] debug-file - Update task entry:default@BuildJS output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader_out/default/js cache.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:2 ms .
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/libs/default cache by regenerate.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/stripped_native_libs/default cache by regenerate.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/patch/default/base_native_libs.json cache.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:1 ms .
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/package/default/module.json cache.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/stripped_native_libs/default cache by regenerate.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2024-09-11T11:01:53.648] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources cache by regenerate.
+[2024-09-11T11:01:53.650] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/res/default/resources.index cache by regenerate.
+[2024-09-11T11:01:53.650] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/outputs/default/pack.info cache by regenerate.
+[2024-09-11T11:01:53.650] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader_out/default/ets cache by regenerate.
+[2024-09-11T11:01:53.650] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2024-09-11T11:01:53.650] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2024-09-11T11:01:53.651] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/outputs/default/entry-default-unsigned.hap cache.
+[2024-09-11T11:01:53.651] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/outputs/default/mapping/sourceMaps.map cache.
+[2024-09-11T11:01:53.651] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:3 ms .
+[2024-09-11T11:01:53.651] [DEBUG] debug-file - Update task entry:default@SignHap input file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/outputs/default/entry-default-unsigned.hap cache by regenerate.
+[2024-09-11T11:01:53.651] [DEBUG] debug-file - Update task entry:default@SignHap output file:/Users/pd1/Desktop/learn/hongmeng-learn/douyinDemo/entry/build/default/outputs/default/entry-default-signed.hap cache.
+[2024-09-11T11:01:53.651] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2024-09-11T11:01:53.659] [DEBUG] debug-file - Cleanup worker 5.
+[2024-09-11T11:01:53.659] [DEBUG] debug-file - Worker 5 has been cleaned up.
+[2024-09-11T11:01:53.659] [DEBUG] debug-file - Current idle worker size: 2.
+[2024-09-11T11:01:53.659] [DEBUG] debug-file - Current resident worker size: 3.
+[2024-09-11T11:01:53.659] [DEBUG] debug-file - Cleanup worker 6.
+[2024-09-11T11:01:53.659] [DEBUG] debug-file - Worker 6 has been cleaned up.
+[2024-09-11T11:01:53.659] [DEBUG] debug-file - Current idle worker size: 1.
+[2024-09-11T11:01:53.659] [DEBUG] debug-file - Current resident worker size: 3.
+[2024-09-11T11:01:53.659] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-09-11T11:01:53.665] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-09-11T11:01:53.666] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-09-11T11:01:53.666] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-09-11T11:01:53.666] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-09-11T11:01:53.667] [DEBUG] debug-file - worker[6] exits with exit code 1.
+[2024-09-11T11:01:53.670] [DEBUG] debug-file - worker[5] exits with exit code 1.
