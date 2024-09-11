@@ -1,0 +1,116 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Common navigation UI styles"
+    },
+    {
+      "name": "hei_ti_medium",
+      "value": "HarmonyHeiTi-Medium"
+    },
+    {
+      "name": "hei_ti",
+      "value": "HarmonyHeiTi"
+    },
+    {
+      "name": "message",
+      "value": "message"
+    },
+    {
+      "name": "people",
+      "value": "contact"
+    },
+    {
+      "name": "activity",
+      "value": "dynamic"
+    },
+    {
+      "name": "list_name",
+      "value": "List options"
+    },
+    {
+      "name": "add_list",
+      "value": "Add list"
+    },
+    {
+      "name": "content",
+      "value": "Content area"
+    },
+    {
+      "name": "title",
+      "value": "Common navigation UI styles"
+    },
+    {
+      "name": "tab_homepage",
+      "value": "home"
+    },
+    {
+      "name": "tab_video",
+      "value": "video"
+    },
+    {
+      "name": "tab_mall",
+      "value": "mall"
+    },
+    {
+      "name": "tab_mine",
+      "value": "mine"
+    },
+    {
+      "name": "tab_full_size",
+      "value": "100%"
+    },
+    {
+      "name": "tab_video_height",
+      "value": "calc(100% - 60vp)"
+    },
+    {
+      "name": "tab_upgrade_hot",
+      "value": "upgrade hot"
+    },
+    {
+      "name": "tab_online_people",
+      "value": "98 million people are watching."
+    },
+    {
+      "name": "tab_toast_message",
+      "value": "For UI display only. The function is not developed yet."
+    },
+    {
+      "name": "tab_share",
+      "value": "share"
+    },
+    {
+      "name": "tab_focus",
+      "value": "focus"
+    },
+    {
+      "name": "tab_selected",
+      "value": "seleted"
+    },
+    {
+      "name": "tab_recommendation",
+      "value": "recommendation"
+    },
+    {
+      "name": "tab_screening_hall",
+      "value": "screeninghall"
+    },
+    {
+      "name": "tab_focus_width",
+      "value": "calc((100% - 120vp)/4)"
+    },
+    {
+      "name": "index_tab_scroll",
+      "value": "calc(100% - 112vp)"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "share",
+      "value": "分享"
+    },
+    {
+      "name": "upgrade_hot",
+      "value": "上升热点"
+    },
+    {
+      "name": "concern",
+      "value": "98万人在看"
+    },
+    {
+      "name": "online_people",
+      "value": "98万人在看"
+    },
+    {
+      "name": "focus",
+      "value": "关注"
+    },
+    {
+      "name": "featured",
+      "value": "精选"
+    },
+    {
+      "name": "recommend",
+      "value": "推荐"
+    },
+    {
+      "name": "movie_room",
+      "value": "放映厅"
+    }
+  ]
+}

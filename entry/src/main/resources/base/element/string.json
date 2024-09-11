@@ -1,0 +1,133 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "常见Tab导航UI样式"
+    },
+    {
+      "name": "hei_ti_medium",
+      "value": "HarmonyHeiTi-Medium"
+    },
+    {
+      "name": "hei_ti",
+      "value": "HarmonyHeiTi"
+    },
+    {
+      "name": "message",
+      "value": "消息"
+    },
+    {
+      "name": "people",
+      "value": "联系人"
+    },
+    {
+      "name": "activity",
+      "value": "动态"
+    },
+    {
+      "name": "list_name",
+      "value": "列表选项"
+    },
+    {
+      "name": "add_list",
+      "value": "添加列表"
+    },
+    {
+      "name": "content",
+      "value": "内容区域"
+    },
+    {
+      "name": "title",
+      "value": "常见Tab导航UI样式"
+    },
+    {
+      "name": "tab_homepage",
+      "value": "首页"
+    },
+    {
+      "name": "tab_video",
+      "value": "视频"
+    },
+    {
+      "name": "tab_mine",
+      "value": "我的"
+    },
+    {
+      "name": "tab_full_size",
+      "value": "100%"
+    },
+    {
+      "name": "tab_video_height",
+      "value": "calc(100% - 60vp)"
+    },
+    {
+      "name": "tab_upgrade_hot",
+      "value": "上升热点"
+    },
+    {
+      "name": "tab_online_people",
+      "value": "98万人在看"
+    },
+    {
+      "name": "tab_toast_message",
+      "value": "仅供UI展示，功能尚未开发"
+    },
+    {
+      "name": "tab_share",
+      "value": "分享"
+    },
+    {
+      "name": "tab_focus",
+      "value": "关注"
+    },
+    {
+      "name": "tab_live",
+      "value": "直播"
+    },
+    {
+      "name": "tab_exp",
+      "value": "经验"
+    },
+    {
+      "name": "tab_city",
+      "value": "同城"
+    },
+    {
+      "name": "tab_mall",
+      "value": "商城"
+    },
+    {
+      "name": "tab_selected",
+      "value": "精选"
+    },
+    {
+      "name": "tab_recommendation",
+      "value": "推荐"
+    },
+    {
+      "name": "tab_screening_hall",
+      "value": "放映厅"
+    },
+    {
+      "name": "tab_focus_width",
+      "value": "calc((100% - 120vp)/4)"
+    },
+    {
+      "name": "index_tab_scroll",
+      "value": "calc(100% - 112vp)"
+    },
+    {
+      "name": "sub_list_width",
+      "value": "calc(100% - 100vp)"
+    }
+
+  ]
+}
